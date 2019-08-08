@@ -10,7 +10,7 @@ int main(int argc, char const *argv[]) {
   while (t--) {
     int n;
     cin >> n;
-    double p = n * 9.0/5.0;
+    double p = n * 9.0 / 5.0;
     cout << floor(p) + 32 << '\n';
   }
   return 0;
