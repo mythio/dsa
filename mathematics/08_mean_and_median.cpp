@@ -33,8 +33,8 @@ int main(int argc, char const *argv[]) {
       cin >> a[i];
       s += a[i];
     }
-    sort (a.begin(), a.end());
-    cout << s/n << ' ' << a[(n-1) / 2] << '\n';
+    sort(a.begin(), a.end());
+    cout << s / n << ' ' << a[(n - 1) / 2] << '\n';
   }
   return 0;
 }
