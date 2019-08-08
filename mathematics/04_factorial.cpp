@@ -12,10 +12,10 @@ int main(int argc, char const *argv[]) {
     cin >> n;
     double c = 0;
     if (n == 0) {
-        c = 0;
+      c = 0;
     }
     for (int i = 1; i <= n; ++i) {
-        c += log10(i);
+      c += log10(i);
     }
     cout << ceil(c) << '\n';
   }
