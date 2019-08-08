@@ -10,11 +10,14 @@ int main(int argc, char const *argv[]) {
   while (t--) {
     int n;
     cin >> n;
-    int fact = 1;
-    for (int i = 1; i <= n; ++i) {
-        fact *= i;
+    double c = 0;
+    if (n == 0) {
+        c = 0;
     }
-    cout << fact << '\n';
+    for (int i = 1; i <= n; ++i) {
+        c += log10(i);
+    }
+    cout << ceil(c) << '\n';
   }
   return 0;
 }
