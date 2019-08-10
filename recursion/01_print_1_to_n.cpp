@@ -3,8 +3,8 @@ using namespace std;
 
 void count(int n) {
   if (n > 0) {
-    cout << n << ' ';
     count(n - 1);
+    cout << n << ' ';
     return;
   }
   return;
