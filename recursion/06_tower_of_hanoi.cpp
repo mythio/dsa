@@ -3,7 +3,8 @@ using namespace std;
 
 void solveTower(int n, char from, char to, char aux, int &moves) {
   if (n == 1) {
-    cout << "move disk " << n << " from rod " << from << " to rod " << to<< '\n';
+    cout << "move disk " << n << " from rod " << from << " to rod " << to
+         << '\n';
     ++moves;
   } else {
     solveTower(n - 1, from, aux, to, moves);
