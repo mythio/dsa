@@ -9,6 +9,9 @@ int sumOfDigits(int n) {
 }
 
 int main(int argc, char const *argv[]) {
+  ios_base::sync_with_stdio(false);
+  cin.tie(nullptr);
+  cout.tie(nullptr);
   int t;
   cin >> t;
   while (t--) {
