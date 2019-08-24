@@ -8,7 +8,7 @@ Output: [1,3,12,0,0]
 
 You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
- */
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
