@@ -10,7 +10,7 @@ struct Node {
   }
 };
 
-void leftView(Node *node) {
+void rightView(Node *node) {
   queue<pair<Node *, int>> q;
   q.push(make_pair(node, 0));
   while (!q.empty()) {
@@ -41,6 +41,6 @@ int main(int argc, char const *argv[]) {
   root->right->left = new Node(1);
   root->right->right = new Node(2);
   root->right->right->left = new Node(55);
-  leftView(root);
+  rightView(root);
   return 0;
 }
