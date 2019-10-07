@@ -42,6 +42,5 @@ int main(int argc, char const *argv[]) {
   root->left->right = new Node(9);
   root->right->left = new Node(1);
   root->right->right = new Node(2);
-  inorder(root);
   return 0;
 }
