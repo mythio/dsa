@@ -6,7 +6,7 @@ bool isConnected(vector<int> adj[], int i, int v, vector<bool> &visited) {
 
   queue<int> q;
   q.push(i);
-
+  visited[i] = true;
   while (!q.empty()) {
     int p = q.front();
     q.pop();
