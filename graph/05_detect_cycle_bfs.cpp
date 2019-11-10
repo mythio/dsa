@@ -3,7 +3,6 @@ using namespace std;
 
 bool isConnected(vector<int> adj[], int i, int v, vector<bool> &visited) {
   vector<int> parent(v, -1);
-
   queue<int> q;
   q.push(i);
   visited[i] = true;
